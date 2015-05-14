@@ -1,14 +1,16 @@
 ## Overview 
 
-This is a meteorite package to provide a honeypot captcha to be used to protect your forms from spambots.
+This is a meteor package to provide a honeypot captcha to be used to protect your forms from spambots.
 
 Contact forms and other forms on unauthenticated pages can be exploited by spambots to repeatedly generate form submissions.
 
 A honeypot captcha is a field on the form that is hidden via CSS.  When the form is submitted with the honeypot field populated, the form submission can be discarded.
 
+[See our Blog Post](https://thesauceco.de/blog/beating-spam-gracefully-with-honeypot-captchas/)
+
 ## Installation
 
-Install by typing `mrt add honeypot`
+Install by typing `meteor add em0ney:honeypot`
 
 ## Usage
 
